@@ -1,0 +1,45 @@
+@keyframes exit {
+    0% {
+        margin-bottom:-100%;
+    }
+    100% {
+        margin-bottom:none;
+    }
+}
+body {
+    background-color:yellowgreen;
+    width:1200px;
+}
+h1 {
+    text-align:center;
+}
+img {
+    animation-duration:2s;
+    animation-name:exit;
+}
+#topLine {
+    text-align:center;
+}
+#tray {
+    margin-left:600px;
+    transform:rotate(45deg);
+}
+#bottLine {
+    text-align:center;
+}
+#calculator {
+    transform:rotate(-45deg);
+    animation-delay:0.5s;
+}
+#volume {
+    transform:rotate(-20deg);
+    animation-delay:1s;
+}
+#document {
+    transform:rotate(20deg);
+    animation-delay:1.5s;
+}
+#crayon {
+    transform:rotate(90deg);
+    animation-delay:2s;
+}

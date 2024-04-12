@@ -1,0 +1,16 @@
+@keyframes heart {
+    0% {
+        transform:scale(1);
+    }
+    100% {
+        transform:scale(2);
+        filter:none;
+    }
+}
+img {
+    filter:grayscale(100%);
+}
+img:hover {
+    animation:heart;
+    animation-duration:5s;
+}
